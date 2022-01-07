@@ -2,9 +2,6 @@ import React, { useState, useEffect } from "react";
 import SyncLoader from "react-spinners/SyncLoader"
 import axios from 'axios'
 
-
-
-
 const PeopleInSpace = () => {
 
   const [people, setPeople] = useState([])
@@ -13,7 +10,7 @@ const PeopleInSpace = () => {
   useEffect(() => {
     const fetchPeople = async () => {
       try {
-        const response = await axios.get('http://api.open-notify.org/astros.json');
+        const response = await axios.get(`${process.env.NODE_ENV === 'production' ? '/api' : 'http://api.open-notify.org'}/astros.json`);
         console.log('response: ', response);
         setPeople(response.data.people)
         setIsLoading(false)

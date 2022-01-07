@@ -11,7 +11,7 @@ const Tracker = () => {
   useEffect(() => {
     const fetchLocation = async () => {
       try {
-        const response = await axios.get('http://api.open-notify.org/iss-now.json');
+        const response = await axios.get(`${process.env.NODE_ENV === 'production' ? '/api' : 'http://api.open-notify.org'}/iss-now.json`);
         console.log('response: ', response.data);
         const { longitude, latitude } = response.data.iss_position;
         setIssCoords([latitude, longitude])
