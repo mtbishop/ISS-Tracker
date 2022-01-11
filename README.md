@@ -3,8 +3,6 @@
 Track the current location of the International Space Station and the current passengers on board.
 
 
-IMAGES WILL GO HERE~~~~~~~
-
 Landing Page:
 ![Landing-Page](https://github.com/mtbishop/ISS-Tracker/blob/main/src/assets/landing-page.PNG)
 
