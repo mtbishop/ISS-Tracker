@@ -1,1 +1,2 @@
 /api/* http://api.open-notify.org/:splat 200
+/* /index.html 200
