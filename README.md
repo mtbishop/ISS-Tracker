@@ -6,14 +6,15 @@ Track the current location of the International Space Station and the current pa
 IMAGES WILL GO HERE~~~~~~~
 
 Landing Page:
+![alt text](image.jpg)
 
 
 List of astronauts currently on the ISS and the Shenzhou 13 space stations:
+![astronauts](https://github.com/mtbishop/ISS-Tracker/blob/main/src/assets/astronauts.PNG)
 
 
 Live map view of the ISS updated every 5 seconds:
-
-
+![ISS-Location](https://github.com/mtbishop/ISS-Tracker/blob/main/src/assets/ISS-location.PNG)
 
 
 ## To get the project running
