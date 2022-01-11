@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SyncLoader from "react-spinners/SyncLoader"
 import Map from '../components/Map';
+import NavBar from '../components/NavBar';
 import axios from 'axios'
 
 const Tracker = () => {
@@ -30,7 +31,7 @@ const Tracker = () => {
   return (
     <div>
       <SyncLoader color="#1e2739" loading={isLoading} size={50} />
-      {!isLoading && <Map issCoords={issCoords} />}
+      {!isLoading && <div><NavBar /> <Map issCoords={issCoords} /></div>}
     </div>
   )
 };
