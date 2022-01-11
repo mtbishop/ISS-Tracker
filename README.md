@@ -21,13 +21,11 @@ In the project directory, you need to run these TWO commands in the following or
 
 ### `npm install`
 
-Install all the dependencies required to start the project. We are going to add more, but we need these to launch the project.
-
+Install all the dependencies required to start the project.
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
 The page will reload when you make changes.
 
 Live link: https://mtb-iss-tracker.netlify.app
