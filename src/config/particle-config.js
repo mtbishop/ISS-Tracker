@@ -72,7 +72,7 @@ const particlesConfig = {
     events: {
       onhover: {
         enable: true,
-        mode: 'repulse',
+        mode: 'grab',
       },
       onclick: {
         enable: false,
@@ -82,9 +82,9 @@ const particlesConfig = {
     },
     modes: {
       grab: {
-        distance: 400,
+        distance: 250,
         line_linked: {
-          opacity: 1,
+          opacity: 0.5,
         },
       },
       bubble: {
