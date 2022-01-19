@@ -1,7 +1,7 @@
 const particlesConfig = {
   particles: {
     number: {
-      value: 40,
+      value: 25,
       density: {
         enable: true,
         value_area: 800,
@@ -84,7 +84,7 @@ const particlesConfig = {
       grab: {
         distance: 250,
         line_linked: {
-          opacity: 0.3,
+          opacity: 0.2,
         },
       },
       bubble: {
