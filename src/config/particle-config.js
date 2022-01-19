@@ -26,7 +26,7 @@ const particlesConfig = {
       },
     },
     opacity: {
-      value: 0.5,
+      value: 0.6,
       random: false,
       anim: {
         enable: false,
@@ -84,7 +84,7 @@ const particlesConfig = {
       grab: {
         distance: 250,
         line_linked: {
-          opacity: 0.5,
+          opacity: 0.3,
         },
       },
       bubble: {
