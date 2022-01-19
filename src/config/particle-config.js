@@ -61,7 +61,7 @@ const particlesConfig = {
       out_mode: 'out',
       bounce: false,
       attract: {
-        enable: true,
+        enable: false,
         rotateX: 600,
         rotateY: 1200,
       },
