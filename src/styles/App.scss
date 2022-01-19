@@ -28,9 +28,12 @@ div {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    max-height: 100%;
     width: 100vw;
     max-width: 100%;
     flex-direction: column;
+    overflow-x: hidden;
+    @include mobile {
+      flex-direction: row;
+    }
   }
 }

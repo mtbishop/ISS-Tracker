@@ -3,6 +3,8 @@ div {
     flex-direction: row;
     flex-wrap: wrap;
     background-color: $background;
+    // width: 100%;
+    // height: 100%;
     div {
       &.card {
         z-index: 10;
@@ -37,6 +39,15 @@ div {
             color: $accent;
           }
         }
+        @include mobile {
+          height: 45%;
+          width: 80%;
+          min-width: 250px;
+          min-height: unset;
+        }
+      }
+      &.hovered {
+        filter: grayscale(90%);
       }
       &.tracker {
         position: absolute;
@@ -46,7 +57,6 @@ div {
         background-image: url('../../assets/spaceship.svg');
         background-size: cover;
         background-repeat: no-repeat;
-        filter: blur(3px) opacity(0.7);
       }
       &.people {
         position: absolute;
@@ -56,7 +66,6 @@ div {
         background-image: url('../../assets/people.svg');
         background-size: cover;
         background-repeat: no-repeat;
-        filter: blur(3px) opacity(0.7);
       }
     }
   }

@@ -84,7 +84,7 @@ const particlesConfig = {
       grab: {
         distance: 250,
         line_linked: {
-          opacity: 0.1,
+          opacity: 0.095,
         },
       },
       bubble: {

@@ -4,7 +4,9 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 90vh;
+    z-index: 98;
+    height: 100vh;
+    margin-top: 90px;
     overflow-y: scroll;
     a {
       background-color: $white;
@@ -27,10 +29,11 @@ div {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url("../../assets/stars.svg");
+    background-image: url('../../assets/stars.svg');
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
     filter: opacity(0.4) blur(3px);
+    overflow-y: hidden;
   }
 }
