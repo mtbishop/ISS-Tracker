@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import ParticleBackground from '../components/ParticleBackground';
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
           Tracker
         </Link>
       </div>
+      <ParticleBackground />
     </div>
   );
 };
