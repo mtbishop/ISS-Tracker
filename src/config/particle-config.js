@@ -41,7 +41,7 @@ const particlesConfig = {
       anim: {
         enable: false,
         speed: 40,
-        size_min: 0.2,
+        size_min: 0.5,
         sync: false,
       },
     },
@@ -84,7 +84,7 @@ const particlesConfig = {
       grab: {
         distance: 250,
         line_linked: {
-          opacity: 0.2,
+          opacity: 0.1,
         },
       },
       bubble: {
